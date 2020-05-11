@@ -1,0 +1,10 @@
+<!--pages/first/first.wxml-->
+<text>{{text}}</text>
+<view class="page-body">
+<view class="btn-area" id="buttonContainer">
+    <button bindtap="btnclick">{{buttonText}}</button>
+    <view wx:if={{isShow}}>{{text}}</view>
+
+
+
+</view>

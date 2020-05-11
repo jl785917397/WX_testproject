@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="downView">
+	<text class="winNum">你已经获胜了<text style="color:red">{{winNum}}</text>次</text>
+  <view class="showView">
+  <image src="{{imageAisrc}}" class="gesturesImgL">
+  
+  </image>
+  <text class=""></text>
+  
+  </view>
+</view>
